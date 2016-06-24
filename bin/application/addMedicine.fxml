@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60">
+   <children>
+      <Label layoutX="39.0" layoutY="45.0" text="Batch no : ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="76.0" text="Name : ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="107.0" text="Company :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="167.0" text="Manufacture Date : ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="198.0" text="Expire Date : ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="224.0" text="Quantity :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="253.0" text="Rate :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="137.0" text="Department : ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="254.0" layoutY="45.0" />
+      <TextField layoutX="254.0" layoutY="76.0" />
+      <TextField layoutX="254.0" layoutY="106.0" />
+      <ComboBox layoutX="254.0" layoutY="136.0" prefWidth="150.0" />
+      <DatePicker layoutX="254.0" layoutY="168.0" />
+      <DatePicker layoutX="254.0" layoutY="199.0" />
+      <TextField layoutX="254.0" layoutY="229.0" />
+      <TextField layoutX="254.0" layoutY="262.0" />
+      <Button layoutX="286.0" layoutY="302.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="110.0" text="ADD ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="403.0" layoutY="302.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="104.0" text="Cancel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
