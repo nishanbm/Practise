@@ -58,6 +58,7 @@ public class loginController {
 	{
 		txtUsername.setText("");
 		txtPassword.setText("");
+		//this line helps to maintain you to provide clear textfield
 	}
 	public void addMedicine (ActionEvent event) throws Exception
 	{
